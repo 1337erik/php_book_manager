@@ -1,8 +1,8 @@
 <?php
 
 $servername = "localhost"; // change to the right one when uploaded
-$username = "root"; // change to your own, my personal local credentials
-$password = "1squidward"; // change to your own, my personal local credentials
+$username = ""; // change to your own, my personal local credentials
+$password = ""; // change to your own, my personal local credentials
 $dbName = "Book"; // from assignment requirements
 
 try {
