@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Add Book</title>
+
+        <link rel="stylesheet" href="/assets/styles.css" />
+    </head>
+    <body>
+
+        <main>
+
+            <h1>Add a Book</h1>
+
+            <a href="/index.html" class="mainlink">Back Home</a>
+            <a href="/retrieveBooks.php" class="mainlink">See all Books</a>
+            <a href="/selectBook.php" class="mainlink">Select a Book</a>
+
+            <form class="formwrap" action="/saveBook.php" method="post">
+
+                <div class="input-wrapper">
+
+                    <label for="title">Book Title</label>
+                    <input type="text" name="title" id="title" />
+                </div>
+                <div class="input-wrapper">
+
+                    <label for="author">Book Author</label>
+                    <input type="text" name="author" id="author" />
+                </div>
+                <div class="input-wrapper">
+
+                    <label for="year">Book Year</label>
+                    <input type="text" name="year" id="year" />
+                </div>
+                <div>
+
+                    <button type="submit" class="btn savebtn">Save</button>
+                    <input type="reset" class="btn resetbtn" />
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

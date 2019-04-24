@@ -1,0 +1,101 @@
+body, html {
+
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    background-color: #f3f6f9;
+}
+
+*, *::after, *::before {
+
+    box-sizing: border-box;
+}
+
+p {
+
+    margin: 0;
+}
+
+main {
+
+    margin-top: 65px;
+    width: 100%;
+    max-width: 900px;
+    padding: 0px 20px;
+}
+
+.input-wrapper {
+
+    margin: 10px 0px;
+}
+
+.input-wrapper > label {
+
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-wrapper > input {
+
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn {
+
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.mainlink {
+
+    display: block;
+    margin: 5px 0px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formwrap {
+
+    margin-top: 25px;
+}
+
+
+.connection-wrap {
+
+    padding: 25px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px #ccc;
+    margin: 0px 20px 45px;
+}
+
+.success {
+
+    color: green;
+}
+
+.failed {
+
+    color: red;
+}
+
+.bookcard {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.bookselect {
+
+    width: 100%;
+    height: 35px;
+}
